@@ -1,5 +1,11 @@
 "use strict";
 
+
+/** -------------------------------- inicio ejercicio 1 --------------------------------**/
+
+
+
+
 let btnMostrar = document.getElementById("btnMostrar");
 btnMostrar.addEventListener("click",mostrar);
 
@@ -49,3 +55,6 @@ function mostrar(){
 
 
 }
+
+
+/** -------------------------------- fin  ejercicio 1 --------------------------------**/

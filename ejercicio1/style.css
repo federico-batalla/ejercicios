@@ -1,3 +1,35 @@
 body{
     background-color:rgba(61, 58, 58, 0.356); 
 }
+
+
+.w-100 { 
+    width: 100%;
+}
+
+
+.w-50 {
+    width: 50%;
+}
+
+
+.row {
+    display: flex;
+    flex-direction:row; 
+}
+
+.column {
+
+    display: flexbox;
+    flex-direction: column;
+}
+
+.bloque {
+    background-color: rgb(104, 235, 235);
+    text-align: center;
+    border: 1px solid;
+    margin: 4px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
