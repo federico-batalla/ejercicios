@@ -57,7 +57,7 @@ function mostrar(){
 }
 
 
-/** -------------------------------- inicio  ejercicio 1¿2 --------------------------------**/
+/** -------------------------------- inicio  ejercicio 2 --------------------------------**/
 
 
 let btnAgregarCadena = document.getElementById("btnAgregarCadena");
@@ -81,5 +81,20 @@ function agregarCadena(){
     divCadena.appendChild(parrafoCadena);
     
 
+
+}
+
+/** -------------------------------- inicio  ejercicio 3 --------------------------------**/
+
+
+let btnAgregarDiv = document.getElementById("btnAgregarDiv");
+btnAgregarDiv.addEventListener("click",agregarDiv);
+
+
+function agregarDiv(){
+    let divAgregado = document.getElementById("divAgregado");
+    let divNuevo = document.createElement("div");
+    divNuevo.className = "divNuevo";      
+    divAgregado.appendChild(divNuevo);
 
 }
