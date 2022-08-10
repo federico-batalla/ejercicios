@@ -94,7 +94,7 @@ btnAgregarDiv.addEventListener("click",agregarDiv);
 function agregarDiv(){
     let divAgregado = document.getElementById("divAgregado");
     let divNuevo = document.createElement("div");
-    divNuevo.className = "divNuevo";      
+    divNuevo.className = "divNuevo";     
     divAgregado.appendChild(divNuevo);
 
 }
