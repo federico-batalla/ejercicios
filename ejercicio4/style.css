@@ -1,0 +1,22 @@
+body {
+    background-color: grey;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloque{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.imagen {
+    width: 50%;
+    height: 50%;
+    height: 300px;
+    
+
+}
